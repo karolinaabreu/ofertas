@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achados da Ká | Melhores Ofertas Shopee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #ee4d2d; /* Cor característica de promoções */
+            font-size: 24px;
+        }
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+        .btn-comprar {
+            display: block;
+            background-color: #ee4d2d;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .btn-comprar:hover {
+            background-color: #d73d1d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🔥 Achados da Ká</h1>
+        <p>Confira as melhores ofertas com super desconto e frete grátis na Shopee!</p>
+
+        <!-- PRODUTO 1 -->
+        <a href="#" class="btn-comprar" target="_blank">
+            🎧 Fone TWS Sem Fio Bluetooth
+        </a>
+
+        <!-- PRODUTO 2 -->
+        <a href="#" class="btn-comprar" target="_blank">
+            🔋 Carregador Portátil Indução Magnético
+        </a>
+    </div>
+
+</body>
+</html>
