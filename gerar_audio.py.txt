@@ -1,0 +1,16 @@
+import os
+from gtts import gTTS
+
+# Narração do Carregador Portátil por Indução
+texto_promocao = (
+    "Nunca mais fique sem bateria no telemóvel fora de casa! "
+    "Este carregador portátil por indução magnética é super compacto e custa menos de 28 reais na Shopee. "
+    "Basta encostar no telemóvel e ele começa a carregar na hora. "
+    "Clique no link do nosso site agora mesmo para garantir o seu com frete grátis!"
+)
+
+print("A gerar áudio para o Carregador Portátil...")
+audio = gTTS(text=texto_promocao, lang='pt', tld='com.br')
+audio.save("audio_carregador.mp3")
+
+print("✓ Sucesso! O ficheiro 'audio_carregador.mp3' foi criado na sua pasta.")
